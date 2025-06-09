@@ -12,4 +12,8 @@ int main(){
     {
        cout << " a " << ": Pengecualian akan dieksekusi " << endl; //blok ini akan dieksekusi
     }
-    
+    catch(...){
+        cout << "default pengecualian dieksekusi " << endl; // *jika selain interger maka block ini akan dieksekusi*/        
+    }
+    return 0;
+}
