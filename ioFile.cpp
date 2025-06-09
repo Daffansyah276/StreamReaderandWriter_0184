@@ -13,6 +13,13 @@ int main(){
 
     cout << ">= Menulis file, \'q\' untuk keluar " << endl;
 
-    
+    //unlimited loop untuk menulis 
+    while (true){
+        cout << "-";
+        getline(cin, baris);  //mendapatkan setiap karakter dalam satu baris 
 
+        if (baris == "q") break; //loop akan berhenti jika anda memasukkan karakter q
+        outfile << baris << endl; // menulis dan memasukkan nilai dari 'baris' ke dalam file
+    }
+    
 }
