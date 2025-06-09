@@ -37,4 +37,5 @@ int main(){
     }
 
     else cout << "Unable to open file "; //jika tidak ditemukan file maka akan menampilkan ini 
-   
+    return 0;
+}
