@@ -36,4 +36,5 @@ int main(){
         infile.close();//tutup file tersebut setelah selesai 
     }
 
-    
+    else cout << "Unable to open file "; //jika tidak ditemukan file maka akan menampilkan ini 
+   
