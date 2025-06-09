@@ -8,5 +8,8 @@ int main(){
         throw 3.5; // melemparkan sebuah interger maka
         cout << "Pernyataan tidak akan di eksekusi " << endl;
     }
+    catch(int a)
+    {
+       cout << " a " << ": Pengecualian akan dieksekusi " << endl; //blok ini akan dieksekusi
+    }
     
-}
