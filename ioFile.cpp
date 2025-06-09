@@ -29,4 +29,11 @@ int main(){
     cout << endl << ">= Membuka dan Membaca file " << endl; 
     //jika file ada maka
     if (infile.is_open()){
+        while (getline(infile, baris)) // melakukan perulangan setiap baris
+        {
+            cout << baris << '\n'; //dan tampilkan disini
+        }
+        infile.close();//tutup file tersebut setelah selesai 
+    }
+
     
